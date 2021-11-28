@@ -36,4 +36,6 @@ Colors, lines, contours, etc. are all easy to discern
 %% Conclusion
 
 What did the model tell you about the process you were studying?
-How could the model be improved in terms of methods used or processes included?
+
+How could the model be improved in terms of methods used or processes included? 
+Find a way to include erosion of beaches (may increase the speed at which salt water intrudes)
