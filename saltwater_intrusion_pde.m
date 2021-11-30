@@ -71,7 +71,8 @@ for i = 1:m
     
 end
 
-% h = %what is the equation
-% zeta = %what is the equation
+% h = %we don't have an equation for this
+% zeta = -h/vs
 
-% newmatrix = (N*dt/S) + zeta*O + h*M
+
+% newmatrix = compiled iterations of (N*dt/S) + zeta*O + h*M
