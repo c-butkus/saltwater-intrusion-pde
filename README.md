@@ -50,8 +50,8 @@ Mario Putti, Claudio Paniconi, Picard and Newton linearization for the coupled m
  
 Jazar, M., Monneau, R. (2014). Derivation of seawater intrusion models by fromal asymptotics. SIAM Journal on Applied Mathematics, 74(4), 1152–1173, (2014). http://www.jstor.org/stable/24511104 
  
-USDA. (2019). Saltwater Intrusion: A Growing Threat to Coastal Agriculture. (https://www.climatehubs.usda.gov/hubs/northeast/topic/saltwater-intrusion-growing-threat-coastal-agriculture)
+USDA. (2019). Saltwater Intrusion: A Growing Threat to Coastal Agriculture. https://www.climatehubs.usda.gov/hubs/northeast/topic/saltwater-intrusion-growing-threat-coastal-agriculture
  
-USGS. (n.d.) Sea Level Rise and the Marshall Islands. (https://www.usgs.gov/mission-areas/water-resources/science/saltwater-intrusion?qt-science_center_objects=0#qt-science_center_objects)
+USGS. (n.d.) Sea Level Rise and the Marshall Islands. https://www.usgs.gov/mission-areas/water-resources/science/saltwater-intrusion?qt-science_center_objects=0#qt-science_center_objects
  
 
