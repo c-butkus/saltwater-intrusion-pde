@@ -1,4 +1,6 @@
 %% Saltwater Intrusion
+# Introduction
+
 %% Parameters:
 k = 2; %m/d, hydraulic conductivity
 n = 0.2; %effective porosity
