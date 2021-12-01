@@ -56,20 +56,6 @@ for i = 1:m
     
 end
 
-O = speye(m,m);
-for i = 1:m
-    for j = 1:m
-        if i == j
-            O(i,j) = -2*(T*dt/(dx*S));
-        elseif i-1==j
-            O(i,j) = T*dt/(dx*S);
-        elseif i+1 ==j
-            O(i,j) = T*dt/(dx*S);
-        end
-    end
-    
-end
-
 % h = %we don't have an equation for this
 % zeta = -h/vs
 
