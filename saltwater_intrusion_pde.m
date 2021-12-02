@@ -71,7 +71,7 @@ M1(1,1) = 0.5;
 %end 
 
 for t = 2:n
-    hnew = M*h;
+    hnew = M1*h;
     h_all(:, X) = hnew';
     h = hnew;
 end
