@@ -57,19 +57,18 @@ end
 %boundary conditions for h
 M1(1,1) = 0.5;
 
-S1 = speye(m,m);
-for i = 1:m
-    for j = 1:m
-        if i == j
-            S1(i,j) = -2*(tau*dt/(S*dx^2));
-        elseif i-1==j
-            S1(i,j) = tau*dt/(S*dx^2);
-        elseif i+1 ==j
-            S1(i,j) = tau*dt/(S*dx^2);
-        end
-    end
-    
-end 
+%S1 = speye(m,m);
+%for i = 1:m
+ %   for j = 1:m
+  %      if i == j
+   %         S1(i,j) = -2*(tau*dt/(S*dx^2));
+    %    elseif i-1==j
+     %       S1(i,j) = tau*dt/(S*dx^2);
+      %  elseif i+1 ==j
+       %     S1(i,j) = tau*dt/(S*dx^2);
+        %end
+    %end
+%end 
 
 for t = 2:n
     hnew = M*h;
@@ -91,18 +90,17 @@ for i = 1:n
     
 end 
 
-S2 = speye(m,m);
-for i = 1:m
-    for j = 1:m
-        if i == j
-            S2(i,j) = -2*(tau*dt/(vs*dx^2*n));
-        elseif i-1==j
-            S2(i,j) = tau*dt/(vs*dx^2*n);
-        elseif i+1 ==j
-            S2(i,j) = tau*dt/(vs*dx^2*n);
-        end
-    end
-    
-end 
+%S2 = speye(m,m);
+%for i = 1:m
+%    for j = 1:m
+ %       if i == j
+  %          S2(i,j) = -2*(tau*dt/(vs*dx^2*n));
+   %     elseif i-1==j
+    %        S2(i,j) = tau*dt/(vs*dx^2*n);
+     %   elseif i+1 ==j
+      %      S2(i,j) = tau*dt/(vs*dx^2*n);
+       % end
+    %end   
+%end 
 %initial condition at x=0, zeta = -2
 z=z0*ones(1,n);
