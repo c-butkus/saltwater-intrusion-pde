@@ -1,6 +1,7 @@
 %% Saltwater Intrusion
-
-%% Parameters:
+clear 
+clc
+% Parameters:
 k = 2; %m/d, hydraulic conductivity
 n = 0.2; %effective porosity
 S = 0.1; %storage coefficient
@@ -34,9 +35,6 @@ x = 0;
 h0 = 0.05; %m, head of freshwater zone fixed
 zeta0 = -2; %m, interface
 
-
-
-
 %% for equation 1:
 % set up matrix
 m = xf/dx + 1; %space steps
@@ -54,10 +52,13 @@ for i = 1:m
         end
     end
     
+end 
+
+h=h0*ones(m,1); %initial condition: at x=0, h=0.05
+h_all = zeros(m,n);
+h_all(:,1) = 0.5;
+for t = 2:n
+    hnew = M*h;
+    h_all(:, t) = hnew';
+    h = hnew;
 end
-
-% h = %we don't have an equation for this
-% zeta = -h/vs
-
-
-% newmatrix = compiled iterations of (N*dt/S) + zeta*O + h*M
