@@ -76,9 +76,9 @@ for t = 2:n
     h = hnew;
 end
 
-O = speye(n,n);
-for i = 1:n
-    for j = 1:n
+O = speye(m,m);
+for i = 1:m
+    for j = 1:m
         if i == j
             O(i,j) = -2*(tau*dt/(dx^2*n))+1;
         elseif i-1==j
